@@ -1,6 +1,6 @@
 # End-to-End testing With Puppeteer and Jest
 
-Example of Puppeteer integration with Jest using jest-puppeteer library
+Starter project for tutorial
 
 ### Installing
 ```
@@ -11,13 +11,4 @@ install dependencies:
 ### Run application
 ```
 npm run dev-server
-```
-
-### Run test suite
-```
-npm run test
-```
-### Run test suite without headless mode
-```
-HEADLESS="false" npm run test
 ```
