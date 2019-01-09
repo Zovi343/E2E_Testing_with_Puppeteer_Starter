@@ -6,7 +6,7 @@ const puppeteer = require('puppeteer');
         const page = await browser.newPage();
         await page.goto('http://localhost:8080/');
         
-        await new Promise(resolve =>  setTimeout(resolve, 5000));
+        await new Promise(resolve => setTimeout(resolve, 5000));
         console.log('done');
         await browser.close();
     } catch (e) {
